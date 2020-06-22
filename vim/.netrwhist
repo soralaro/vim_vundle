@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/data/czx/vega/vega/test'
+let g:netrw_dirhist_2='/data/czx/vega/vega/test/interface'
+let g:netrw_dirhist_3='/data/czx/vega/vega/hiai/device'
+let g:netrw_dirhist_4='/data/czx/vega/vega/test/interface'
+let g:netrw_dirhist_5='/data/czx/vega/vega/hiai/device'
+let g:netrw_dirhist_6='/data/czx/vega/vega/hiai/common'
+let g:netrw_dirhist_7='/var/dlog'
+let g:netrw_dirhist_8='/data/czx/vega/vega/hiai/device/utils'
