@@ -1,8 +1,13 @@
 1. mv vimrc ~/.vimrc
+
 2. mv vim ~/.vim
+
 3.open vim and :PluginInstall
+
 read below
+
 https://blog.csdn.net/qq_33160790/article/details/81152943
+
 ////////////////////////////////////////////////////////////////////////////////
 set nocompatible              " required
 filetype off                  " required
