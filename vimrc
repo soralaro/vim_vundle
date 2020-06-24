@@ -84,3 +84,6 @@ autocmd BufReadPost *
 	\   exe "normal g'\"" |
 	\ endif
 set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
+set termencoding=utf-8
+set encoding=utf-8
+set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030
