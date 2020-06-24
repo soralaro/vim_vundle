@@ -37,7 +37,7 @@ map <F2> :NERDTreeToggle<CR>
 let NERDTreeChDirMode=1
 let NERDTreeShowBookmarks=1
 let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
-let NERDTreeWinSize=20 "25
+let NERDTreeWinSize=35 "25
 let g:NERDTreeDirArrowExpandable = '>'
 let g:NERDTreeDirArrowCollapsible = '^'
 
@@ -63,13 +63,14 @@ let g:NERDTreeIndicatorMapCustom = {
     \ "Unknown"   : "?"
     \ }
 
+
 "let NERDTreeShowLineNumbers=1
 let NERDTreeAutoCenter=1
 let NERDTreeWinPos=1
 
 "let Tlist_Use_Right_Window = 1
-let Tlist_File_Fold_Auto_Close = 1
-let Tlist_Show_One_File = 1
+"let Tlist_File_Fold_Auto_Close = 1
+"let Tlist_Show_One_File = 1
 let Tlist_Sort_Type ='name'
 "let Tlist_GainFocus_On_ToggleOpen = 1
 let Tlist_Exit_OnlyWindow = 1
