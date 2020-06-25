@@ -77,13 +77,13 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_WinWidth = 32
 autocmd vimenter * TlistToggle
 map <F1> :TlistToggle<CR>
-let g:indentLine_char='¦'
+let g:indentLine_char=' '
 let g:indentLine_enabled = 1
 autocmd BufReadPost *
 	\ if line("'\"")>0&&line("'\"")<=line("$") |
 	\   exe "normal g'\"" |
 	\ endif
-set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab
+set tabstop=4 softtabstop=4 shiftwidth=4 noexpandtab
 set termencoding=utf-8
 set encoding=utf-8
 set fileencodings=utf-8,ucs-bom,gbk,cp936,gb2312,gb18030
