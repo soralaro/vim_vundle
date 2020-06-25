@@ -77,7 +77,7 @@ let Tlist_Exit_OnlyWindow = 1
 let Tlist_WinWidth = 32
 autocmd vimenter * TlistToggle
 map <F1> :TlistToggle<CR>
-let g:indentLine_char=' '
+let g:indentLine_char=''
 let g:indentLine_enabled = 1
 autocmd BufReadPost *
 	\ if line("'\"")>0&&line("'\"")<=line("$") |
